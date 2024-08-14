@@ -17,43 +17,38 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nightNoCloud" translatesAutoresizingMaskIntoConstraints="NO" id="IYU-6Z-AbE">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="NightNoCloudBackground" translatesAutoresizingMaskIntoConstraints="NO" id="IYU-6Z-AbE">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VqS-Qe-qFw">
                                 <rect key="frame" x="0.0" y="64" width="414" height="275"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="ByV-vA-4oS">
-                                        <rect key="frame" x="117.5" y="44.5" width="179" height="186.5"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="-5" translatesAutoresizingMaskIntoConstraints="NO" id="Seo-Dk-Q3G">
+                                        <rect key="frame" x="109.5" y="44.5" width="195" height="186.5"/>
                                         <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="-5" translatesAutoresizingMaskIntoConstraints="NO" id="Seo-Dk-Q3G">
-                                                <rect key="frame" x="0.0" y="0.0" width="179" height="138.5"/>
-                                                <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Balıkesir" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oDA-ho-fyX">
-                                                        <rect key="frame" x="23" y="0.0" width="133.5" height="43"/>
-                                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="36"/>
-                                                        <color key="textColor" name="WeatherColor"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="24°C" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aiw-PS-KeA">
-                                                        <rect key="frame" x="0.0" y="38" width="179" height="100.5"/>
-                                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="84"/>
-                                                        <color key="textColor" name="WeatherColor"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                </subviews>
-                                            </stackView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Balıkesir" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oDA-ho-fyX">
+                                                <rect key="frame" x="40" y="0.0" width="115" height="38.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                                <color key="textColor" name="WeatherColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="24°C" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aiw-PS-KeA">
+                                                <rect key="frame" x="0.0" y="33.5" width="195" height="115"/>
+                                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="96"/>
+                                                <color key="textColor" name="WeatherColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="kHl-51-bKC">
-                                                <rect key="frame" x="0.0" y="143.5" width="179" height="43"/>
+                                                <rect key="frame" x="28.5" y="143.5" width="138.5" height="43"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Bulutlu" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ErT-sj-TR6">
-                                                        <rect key="frame" x="60.5" y="0.0" width="58" height="21.5"/>
+                                                        <rect key="frame" x="40" y="0.0" width="58" height="21.5"/>
                                                         <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
                                                         <color key="textColor" name="WeatherColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Y: 24°C   D: 18°C" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q2R-zD-som">
-                                                        <rect key="frame" x="20.5" y="21.5" width="138.5" height="21.5"/>
+                                                        <rect key="frame" x="0.0" y="21.5" width="138.5" height="21.5"/>
                                                         <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
                                                         <color key="textColor" name="WeatherColor"/>
                                                         <nil key="highlightedColor"/>
@@ -64,8 +59,8 @@
                                     </stackView>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="ByV-vA-4oS" firstAttribute="centerX" secondItem="VqS-Qe-qFw" secondAttribute="centerX" id="bfA-C7-PNA"/>
-                                    <constraint firstItem="ByV-vA-4oS" firstAttribute="centerY" secondItem="VqS-Qe-qFw" secondAttribute="centerY" id="byq-SL-MIc"/>
+                                    <constraint firstItem="Seo-Dk-Q3G" firstAttribute="centerY" secondItem="VqS-Qe-qFw" secondAttribute="centerY" id="3gt-R7-Qhh"/>
+                                    <constraint firstItem="Seo-Dk-Q3G" firstAttribute="centerX" secondItem="VqS-Qe-qFw" secondAttribute="centerX" id="J3U-IA-jpb"/>
                                     <constraint firstAttribute="height" constant="275" id="f2m-0u-e4t"/>
                                 </constraints>
                             </view>
@@ -109,7 +104,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="nightNoCloud" width="213" height="461.5"/>
+        <image name="NightNoCloudBackground" width="213" height="461.5"/>
         <namedColor name="WeatherColor">
             <color red="0.99215686319999996" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
