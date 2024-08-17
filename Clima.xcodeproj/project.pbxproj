@@ -15,6 +15,7 @@
 		940409A02C64F488009FEC8C /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 9404099F2C64F488009FEC8C /* Base */; };
 		945ED19D2C6D5280005DF222 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945ED19C2C6D5280005DF222 /* WeatherData.swift */; };
 		9472D5A92C6827F900B793B7 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9472D5A82C6827F900B793B7 /* WeatherManager.swift */; };
+		94C036112C6E37F5002F7619 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C036102C6E37F5002F7619 /* WeatherModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		940409A12C64F488009FEC8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		945ED19C2C6D5280005DF222 /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
 		9472D5A82C6827F900B793B7 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
+		94C036102C6E37F5002F7619 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 			children = (
 				9472D5A82C6827F900B793B7 /* WeatherManager.swift */,
 				945ED19C2C6D5280005DF222 /* WeatherData.swift */,
+				94C036102C6E37F5002F7619 /* WeatherModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -172,6 +175,7 @@
 				945ED19D2C6D5280005DF222 /* WeatherData.swift in Sources */,
 				940409942C64F487009FEC8C /* AppDelegate.swift in Sources */,
 				9472D5A92C6827F900B793B7 /* WeatherManager.swift in Sources */,
+				94C036112C6E37F5002F7619 /* WeatherModel.swift in Sources */,
 				940409962C64F487009FEC8C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -327,11 +331,13 @@
 				DEVELOPMENT_TEAM = BWCFA5MJHF;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Clima/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We need your location to provide weather information.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to provide weather information.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -356,11 +362,13 @@
 				DEVELOPMENT_TEAM = BWCFA5MJHF;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Clima/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We need your location to provide weather information.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to provide weather information.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
